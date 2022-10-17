@@ -1,11 +1,13 @@
 class DesignsController < ApplicationController
-  before_action :set_design, only: %i[ show ]
+  skip_before_action :authenticate_user!, only: [:index, :show]
+  # before_action :set_design, only: %i[ show ]
 
   def index
     @designs = Design.all
   end
 
   def show
+    set_design
     @design = Design.find(params[:id])
   end
 

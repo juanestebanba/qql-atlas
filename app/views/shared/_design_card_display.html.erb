@@ -1,0 +1,14 @@
+<div class="designs-cards-cointainer">
+  <div class="designs-flex-container">
+    <% @designs.each do |design| %>
+      <div class="design-card">
+        <h5 class="card-title"><%= design.title%> </h5>
+        <div class="design-card-image">
+        <% if design.photo.attached? %>
+          <%= cl_image_tag design.photo.key, height: 200, width: 200, crop: :fill %>
+         <% end %>
+       </div>
+      </div>
+    <% end %>
+   </div>
+</div>
