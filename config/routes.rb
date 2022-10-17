@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
-  resources :designs
-  root to: "pages#home"
+  root to: 'pages#home'
   resources :designs
 
+  get 'numbers', to: 'categories#numbers'
+  get 'letters', to: 'categories#letters'
+  get 'objects', to: 'categories#objects'
 end
 
-
-# Ejemplo del programa de crazy boats, así se debe filtrar y organizar por categoría. 
-#en este caso las categoría serían números,letras, etc.
+# Ejemplo del programa de crazy boats, así se debe filtrar y organizar por categoría.
+# en este caso las categoría serían números,letras, etc.
 
 # Rails.application.routes.draw do
 #   get 'categories/controller'
