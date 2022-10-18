@@ -5,7 +5,7 @@
         <h5 class="card-title"><%= design.title%> </h5>
         <div class="design-card-image">
         <% if design.photo.attached? %>
-          <%= cl_image_tag design.photo.key, height: 200, width: 200, crop: :fill %>
+          <%= cl_image_tag design.photo.key, height: 350, width: 280, crop: :fill %>
          <% end %>
        </div>
       </div>
