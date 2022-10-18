@@ -12,24 +12,24 @@
 
   <div class="cards-container">
     <div class="col-lg-4">
-      <a href="">
+      <%= link_to letters_path do %>
         <p>Letters</p>
         <%= image_tag('letter_u.png') %>
-      </a>
+      <% end %>
     </div>
 
     <div class="col-lg-4">
-      <a href="">
+      <%= link_to numbers_path do %>
         <p>Numbers</p>
         <%= image_tag('number_7.png') %>
-      </a>
+      <% end %>
     </div>
 
     <div class="col-lg-4">
-      <a href="">
+      <%= link_to objects_path do %>
         <p>Landscapes / Objects </p>
         <%= image_tag('landscape_wave.png') %>
-      </a>
+      <% end %>
     </div>
   </div>
 
@@ -37,9 +37,11 @@
     <p>More categories soon...</p>
   </div>
 
-  <div class="footer">
+  <%# <div class="footer">
   <a href="http://twitter.com/juaneseth">
     <p>By @juaneseth</p>
   </a>
+  </div> %>
 </div>
-</div>
+
+<%= render 'shared/footer' %>

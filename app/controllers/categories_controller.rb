@@ -1,14 +1,14 @@
 class CategoriesController < ApplicationController
   def numbers
-    @designs = Design.where(category: "Number")
+    @designs = Design.where(category: "Numbers")
   end
 
   def letters
-    @designs = Design.where(category: "Letter")
+    @designs = Design.where(category: "Letters")
   end
 
   def objects
-    @designs = Design.where(category: "Object")
+    @designs = Design.where(category: "Objects")
   end
 end
 
