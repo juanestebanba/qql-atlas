@@ -1,23 +1,12 @@
 TO DO's:
 
-- [ ] 1. HAcer que el home content continaeer también sea flex, al igual que hice con el numbers continaer, para que sea resposivo.
-- [ ] 2. Quitar que los títulos de las categorías sean sticky (En este momneto en la sección de numbers, el título "numbers" está sticky).
+- [X] 1. HAcer que el home content continaeer también sea flex, al igual que hice con el numbers contiaier, para que sea resposivo.
+- [X] 2. Quitar que los títulos de las categorías sean sticky (En este momneto en la sección de numbers, el título "numbers" está sticky).
   Esto es porque esa parte del h1 está aparte en otra página, y luego estoy poniendo a rendererear las tarjetas llamandolas desde otro archivo con  <%= render 'shared/design_card_display' %>
+- [] Poner un botón de "back" para que la gente se pueda devolver al home desde la página de cada categoría.
+- [] MEjorar espacios, margenes y paddings.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [] HAcer deploy
 
 
 
