@@ -3,12 +3,13 @@ TO DO's:
 - [X] 1. HAcer que el home content continaeer también sea flex, al igual que hice con el numbers contiaier, para que sea resposivo.
 - [X] 2. Quitar que los títulos de las categorías sean sticky (En este momneto en la sección de numbers, el título "numbers" está sticky).
   Esto es porque esa parte del h1 está aparte en otra página, y luego estoy poniendo a rendererear las tarjetas llamandolas desde otro archivo con  <%= render 'shared/design_card_display' %>
+- [] Poner el footer en todas las páginas.
 - [] Poner un botón de "back" para que la gente se pueda devolver al home desde la página de cada categoría.
+- [] Poner imagaen de placeholder (crearla en Adobe Xd) para los QQL que aún no tengo.
 - [] MEjorar espacios, margenes y paddings.
-
+- [] Permitir que al hacer click en una imagen específica, se pueda hacer clik y verla en tamaño real, con Zoom ,tal cual como en la página de QQL.
+- [] Permitir que la gente pueda compartir una imagen a Twitter o IG stories "This is heart form QQL ATLAAs. Check it out"
 - [] HAcer deploy
-
-
 
 
 

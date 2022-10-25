@@ -1,4 +1,9 @@
 <div class="numbers-main-container">
+  <%= link_to root_path, class: "back-button" do %>
+    <h3> <-- Back </h3>
+  <% end %>
   <h1 class="category-title">Numbers</h1>
   <%= render 'shared/design_card_display' %>
 </div>
+
+<%= render 'shared/footer' %>
