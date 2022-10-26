@@ -204,7 +204,7 @@ avocado.photo.attach(io: file_avocado, filename: "object_avocado.png", content_t
 avocado.save
 
 file_wood_mask = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655745/qql-objects/object_wood_mask_wy4keb.png")
-wood_mask = Design.new(title: "Aku Aku (Wooden Mask", category: "Objects")
+wood_mask = Design.new(title: "Aku Aku (Wooden Mask)", category: "Objects")
 wood_mask.photo.attach(io: file_wood_mask, filename: "object_wood_mask.png", content_type: "image/png")
 wood_mask.save
 
