@@ -34,7 +34,7 @@ number_5 = Design.new(title: "Number 5", category: "Numbers")
 number_5.photo.attach(io: file_5, filename: "number_5.png", content_type: "image/png")
 number_5.save
 
-file_6 = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655694/qql-numbers/number_6_tuxaia.png")
+file_6 = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666744582/qql-numbers/number_6_2_dcnjqs.png")
 number_6 = Design.new(title: "Number 6", category: "Numbers")
 number_6.photo.attach(io: file_6, filename: "number_6.png", content_type: "image/png")
 number_6.save
@@ -49,7 +49,7 @@ number_8 = Design.new(title: "Number 8", category: "Numbers")
 number_8.photo.attach(io: file_8, filename: "number_8.png", content_type: "image/png")
 number_8.save
 
-file_9 = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655722/qql-numbers/number_placeholder_orrwqj.png")
+file_9 = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666744581/qql-numbers/number_9_mlx7ep.png")
 number_9 = Design.new(title: "Number 9", category: "Numbers")
 number_9.photo.attach(io: file_9, filename: "number_9.png", content_type: "image/png")
 number_9.save
@@ -68,7 +68,7 @@ letter_b = Design.new(title: "Letter B", category: "Letters")
 letter_b.photo.attach(io: file_b, filename: "letter_b.png", content_type: "image/png")
 letter_b.save
 
-file_c = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655737/qql-letters/letter_placeholder_dgl2h2.png")
+file_c = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666744554/qql-letters/letter_c_2_ldbhfd.png")
 letter_c = Design.new(title: "Letter C", category: "Letters")
 letter_c.photo.attach(io: file_c, filename: "letter_c.png", content_type: "image/png")
 letter_c.save
@@ -103,7 +103,7 @@ letter_i = Design.new(title: "Letter I", category: "Letters")
 letter_i.photo.attach(io: file_i, filename: "letter_i.png", content_type: "image/png")
 letter_i.save
 
-file_j = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666658612/qql-letters/letter_J_uxemiw.png")
+file_j = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666744554/qql-letters/letter_J_2_cttt1b.png")
 letter_j = Design.new(title: "Letter J", category: "Letters")
 letter_j.photo.attach(io: file_j, filename: "letter_j.png", content_type: "image/png")
 letter_j.save
@@ -168,7 +168,7 @@ letter_v = Design.new(title: "Letter V", category: "Letters")
 letter_v.photo.attach(io: file_v, filename: "letter_v.png", content_type: "image/png")
 letter_v.save
 
-file_w = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655737/qql-letters/letter_placeholder_dgl2h2.png")
+file_w = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666744565/qql-letters/letter_W_sppkaq.png")
 letter_w = Design.new(title: "Letter W", category: "Letters")
 letter_w.photo.attach(io: file_w, filename: "letter_w.png", content_type: "image/png")
 letter_w.save
@@ -204,7 +204,7 @@ avocado.photo.attach(io: file_avocado, filename: "object_avocado.png", content_t
 avocado.save
 
 file_wood_mask = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655745/qql-objects/object_wood_mask_wy4keb.png")
-wood_mask = Design.new(title: "Wood Mask", category: "Objects")
+wood_mask = Design.new(title: "Aku Aku (Wooden Mask", category: "Objects")
 wood_mask.photo.attach(io: file_wood_mask, filename: "object_wood_mask.png", content_type: "image/png")
 wood_mask.save
 
@@ -212,5 +212,10 @@ file_heart = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v166665
 heart = Design.new(title: "Heart", category: "Objects")
 heart.photo.attach(io: file_heart, filename: "object_heart.png", content_type: "image/png")
 heart.save
+
+file_red_blood_cell = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666744691/qql-objects/object_red_blood_cells_fi4ywv.png")
+red_blood_cell = Design.new(title: "Red blood cell", category: "Objects")
+red_blood_cell.photo.attach(io: file_red_blood_cell, filename: "object_red_blood_cell.png", content_type: "image/png")
+red_blood_cell.save
 
 puts "Objects created!"
