@@ -34,6 +34,8 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 gem "cloudinary"
 
+gem 'net-smtp', '~> 0.3.3'
+
 
 gem "devise"
 gem "autoprefixer-rails"

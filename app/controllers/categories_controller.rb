@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:index, :show]
   def numbers
     @designs = Design.where(category: "Numbers")
   end
