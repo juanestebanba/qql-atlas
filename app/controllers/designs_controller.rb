@@ -1,5 +1,5 @@
 class DesignsController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:index, :show]
+  # skip_before_action :authenticate_user!, only: [:index, :show]
   # before_action :set_design, only: %i[ show ]
 
   def index
