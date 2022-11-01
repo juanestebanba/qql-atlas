@@ -88,7 +88,7 @@ letter_f = Design.new(title: "Letter F", category: "Letters")
 letter_f.photo.attach(io: file_f, filename: "letter_f.png", content_type: "image/png")
 letter_f.save
 
-file_g = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655737/qql-letters/letter_placeholder_dgl2h2.png")
+file_g = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1667335508/qql-letters/letter_G_g9yp9d.png")
 letter_g = Design.new(title: "Letter G", category: "Letters")
 letter_g.photo.attach(io: file_g, filename: "letter_g.png", content_type: "image/png")
 letter_g.save
@@ -123,12 +123,12 @@ letter_m = Design.new(title: "Letter M", category: "Letters")
 letter_m.photo.attach(io: file_m, filename: "letter_m.png", content_type: "image/png")
 letter_m.save
 
-file_n = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655737/qql-letters/letter_placeholder_dgl2h2.png")
+file_n = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1667335507/qql-letters/letter_n_sa7vlw.png")
 letter_n = Design.new(title: "Letter N", category: "Letters")
 letter_n.photo.attach(io: file_n, filename: "letter_n.png", content_type: "image/png")
 letter_n.save
 
-file_o = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666658235/qql-letters/letter_o_e4gkch.png")
+file_o = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1667335507/qql-letters/letter_o_w92gbp.png")
 letter_o = Design.new(title: "Letter O", category: "Letters")
 letter_o.photo.attach(io: file_o, filename: "letter_o.png", content_type: "image/png")
 letter_o.save
@@ -163,7 +163,7 @@ letter_u = Design.new(title: "Letter U", category: "Letters")
 letter_u.photo.attach(io: file_u, filename: "letter_u.png", content_type: "image/png")
 letter_u.save
 
-file_v = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1666655737/qql-letters/letter_placeholder_dgl2h2.png")
+file_v = URI.open("https://res.cloudinary.com/duqopwkea/image/upload/v1667335507/qql-letters/letter_v_rrqdmx.png")
 letter_v = Design.new(title: "Letter V", category: "Letters")
 letter_v.photo.attach(io: file_v, filename: "letter_v.png", content_type: "image/png")
 letter_v.save
